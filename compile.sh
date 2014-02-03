@@ -1,0 +1,1 @@
+gcc fis_parser.c iniparser/dictionary.c iniparser/iniparser.c iniparser/strlib.c -o fis_parser
