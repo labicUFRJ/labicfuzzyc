@@ -1,10 +1,26 @@
-// FIS Parser
+//    Laboratorio de Inteligencia Computacional
+//    NCE/UFRJ - http://www.labic.nce.ufrj.br/
 //
-// COMPILANDO / COMPILING
-// gcc fis_parser.c iniparser/dictionary.c iniparser/iniparser.c iniparser/strlib.c -o fis_parser
+//    This program is free software: you can redistribute it and/or modify
+//    it under the terms of the GNU General Public License as published by
+//    the Free Software Foundation, either version 3 of the License, or
+//    (at your option) any later version.
 //
-// EXECUTANDO / RUNNING
-// ./fis_parser input.fis output.cpp
+//    This program is distributed in the hope that it will be useful,
+//    but WITHOUT ANY WARRANTY; without even the implied warranty of
+//    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//    GNU General Public License for more details.
+//
+//    You should have received a copy of the GNU General Public License
+//    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+//
+//    --------------------------------------------------------------------------
+//
+//    COMPILANDO / COMPILING
+//      gcc fis_parser.c iniparser/dictionary.c iniparser/iniparser.c iniparser/strlib.c -o fis_parser
+//
+//    EXECUTANDO / RUNNING
+//      ./fis_parser input.fis output.cpp
 //
 
 #include <stdio.h>
@@ -23,7 +39,6 @@ int main(int argc, char* argv[]) {
     char nomefis[50];
     char nomeoutput[50];
     char arqsaida[100];
-    //char nomefis[] = "caminhao_anfis.fis";
     char* s = NULL;
     int ninputs, noutputs, nrules, type;
     int i, j;
